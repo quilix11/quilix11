@@ -1,104 +1,57 @@
+<h1>quilix11</h1>
+
+<strong>Python · Backend · Infrastructure</strong>
+
 <p>
-  <img src="assets/header.svg" width="100%" alt="quilix11 — Python, backend and infrastructure" />
+  <a href="https://github.com/quilix11?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fquilix11&amp;query=%24.public_repos&amp;label=public%20repos&amp;style=flat-square&amp;color=555555&amp;labelColor=161b22" /></a>
+  <a href="https://github.com/quilix11?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/quilix11?style=flat-square&amp;label=followers&amp;color=555555&amp;labelColor=161b22" /></a>
+  <a href="https://github.com/quilix11?tab=repositories"><img alt="Stars across public repositories" src="https://img.shields.io/github/stars/quilix11?style=flat-square&amp;label=stars&amp;color=555555&amp;labelColor=161b22" /></a>
 </p>
 
-<h3><samp>01 / ABOUT</samp></h3>
+I write Python APIs, command-line tools and Telegram bots. My projects cover equipment tracking, Git hooks, webhook debugging and background jobs.
 
-I write Python APIs, CLI tools and Telegram bots. My projects cover equipment tracking, code review, webhook debugging, configuration backups and monitoring.
+I'm currently learning **Kubernetes**, alongside **Terraform and AWS**: how to configure workloads, connect services and manage the infrastructure around them.
 
-I'm also learning the infrastructure side: **Kubernetes** deployments, services and configuration, plus **Terraform / AWS** networking, compute, databases and storage.
+### Stack
 
-<h3><samp>02 / PROJECTS</samp></h3>
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-161b22?style=flat-square&amp;logo=python&amp;logoColor=FFD43B" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&amp;logo=fastapi&amp;logoColor=009688" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&amp;logo=postgresql&amp;logoColor=739AC8" />
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-161b22?style=flat-square&amp;logo=redis&amp;logoColor=DC382D" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-161b22?style=flat-square&amp;logo=docker&amp;logoColor=2496ED" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-161b22?style=flat-square&amp;logo=git&amp;logoColor=F05032" />
+</p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/quilix11/-FAE"><samp>-FAE</samp></a></h3>
+<sub>Also in my projects: SQLAlchemy, Pydantic, Alembic, SQLite, Taskiq, asyncio, httpx, Typer, Rich and GitHub Actions.</sub>
 
-Equipment tracking across machines and zones. Capacity rules, operator roles, movement history and live dashboard updates.
+### Projects
 
-`FastAPI` `SQLAlchemy` `WebSockets`
-
-<sub>CQRS · Unit of Work · dependency injection</sub>
-
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/quilix11/git-reviewer"><samp>git-reviewer</samp></a></h3>
-
-A pre-commit hook that sends the staged diff to Gemini and prints a terminal review. A critical result blocks the commit.
-
-`Python` `Git hooks` `Gemini` `Rich`
-
-<sub>Staged diff → review → commit decision</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/quilix11/webhook-replay"><samp>webhook-replay</samp></a></h3>
-
-Receive a webhook, save its headers and payload, inspect it, then replay it to another endpoint. Includes migrations and API tests.
-
-`FastAPI` `async SQLAlchemy` `httpx`
-
-<sub>Receive → store → inspect → replay</sub>
-
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/quilix11/wiki-quizlet"><samp>wiki-quizlet</samp></a></h3>
-
-A Telegram quiz based on Ukrainian Wikipedia. Article reading, AI and rule-based question generation, player scores and rankings.
-
-`Python` `Telegram` `Gemini` `SQLite`
-
-<sub>Articles → questions → quiz rounds</sub>
-
-</td>
-</tr>
-</table>
-
-<h3><samp>03 / STACK</samp></h3>
-
-| | Tools in my projects |
+| Project | What it does |
 | :--- | :--- |
-| **Backend** | `Python` `FastAPI` `Pydantic` `SQLAlchemy` `Alembic` |
-| **Data & workers** | `PostgreSQL` `SQLite` `Redis` `Taskiq` `asyncio` `httpx` |
-| **CLI & automation** | `Git` `Typer` `Rich` `GitHub Actions` |
-| **Containers** | `Docker` `Compose` |
-| **Infrastructure practice** | `Kubernetes` `Terraform` `AWS` |
+| [**-FAE**](https://github.com/quilix11/-FAE)<br><sub>FastAPI · SQLAlchemy · WebSockets</sub> | Tracks applicators across machines and zones, with capacity rules, operator roles, movement history and live dashboards. Uses CQRS and Unit of Work. |
+| [**git-reviewer**](https://github.com/quilix11/git-reviewer)<br><sub>Python · Git hooks · Gemini</sub> | Reviews the staged diff before a commit and prints the result in the terminal. A critical result blocks the commit. |
+| [**webhook-replay**](https://github.com/quilix11/webhook-replay)<br><sub>FastAPI · async SQLAlchemy · httpx</sub> | Receives and stores webhook headers and payloads, then lets you inspect and resend them. Includes migrations and API tests. |
+| [**wiki-quizlet**](https://github.com/quilix11/wiki-quizlet)<br><sub>Python · Telegram · SQLite</sub> | A quiz based on Ukrainian Wikipedia: article reading, AI and rule-based question generation, player scores and rankings. |
 
-<h3><samp>04 / INFRASTRUCTURE</samp></h3>
+### Infrastructure practice
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/quilix11/k8s"><samp>k8s</samp></a></h3>
+<p>
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-161b22?style=flat-square&amp;logo=kubernetes&amp;logoColor=326CE5" />
+  <img alt="Terraform" src="https://img.shields.io/badge/Terraform-161b22?style=flat-square&amp;logo=terraform&amp;logoColor=9B87E8" />
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-161b22?style=flat-square" />
+</p>
 
-Deployment, Service and ConfigMap manifests. Working through replicas, application/database workloads and CPU/memory requests and limits.
-
-`Kubernetes` `YAML`
-
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/quilix11/AWS"><samp>AWS</samp></a></h3>
-
-Terraform definitions for VPCs and subnets, EC2, an application load balancer, RDS PostgreSQL, S3 and IAM.
-
-`Terraform` `HCL` `AWS`
-
-</td>
-</tr>
-</table>
+- [**k8s**](https://github.com/quilix11/k8s) — Deployment, Service and ConfigMap manifests; replicas and CPU/memory requests and limits.
+- [**AWS**](https://github.com/quilix11/AWS) — Terraform definitions for VPCs, subnets, EC2, ALB, RDS PostgreSQL, S3 and IAM.
 
 <details>
-<summary><samp>05 / MORE REPOS</samp></summary>
+<summary><strong>More repos</strong></summary>
 
-| Repo | What is in it |
-| :--- | :--- |
-| [state-vault](https://github.com/quilix11/state-vault) | A CLI/API prototype for finding configuration files and pushing or pulling backups. |
-| [ast-graph](https://github.com/quilix11/ast-graph) | Python AST → Gemini → Mermaid diagrams. Experimental; the latest version has known errors. |
-| [stratum](https://github.com/quilix11/stratum) | Early workspace/content models and a plugin-based Markdown/TXT parser. |
-| [uptime-service](https://github.com/quilix11/uptime-service) | HTTP checks, scheduled Taskiq jobs and Redis results. Paused prototype. |
-| [hf-space-waker](https://github.com/quilix11/hf-space-waker) | A scheduled GitHub Actions request to a Hugging Face Space. |
+- [state-vault](https://github.com/quilix11/state-vault) — a CLI/API prototype for configuration backups.
+- [ast-graph](https://github.com/quilix11/ast-graph) — Python AST to Gemini-generated Mermaid diagrams. Experimental, with known errors.
+- [stratum](https://github.com/quilix11/stratum) — early workspace/content models and a plugin-based Markdown/TXT parser.
+- [uptime-service](https://github.com/quilix11/uptime-service) — scheduled HTTP checks with Taskiq and Redis. Paused prototype.
+- [hf-space-waker](https://github.com/quilix11/hf-space-waker) — a GitHub Actions schedule that sends a request to a Hugging Face Space.
 
 </details>
