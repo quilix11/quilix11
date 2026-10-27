@@ -2,13 +2,6 @@
   <img src="assets/header.svg" width="100%" alt="quilix11 — Tools for developers. Experiences for people." />
 </p>
 
-<p align="center">
-  <a href="#about">About</a> &nbsp; / &nbsp;
-  <a href="#selected-projects">Projects</a> &nbsp; / &nbsp;
-  <a href="#toolbox">Toolbox</a> &nbsp; / &nbsp;
-  <a href="#the-rest-of-the-workbench">Workbench</a>
-</p>
-
 ## About
 
 I'm **quilix11**. I build software around things I want to understand or make easier: reviewing a commit, tracing equipment, practicing a language, replaying a webhook, or getting an application running in the cloud.
