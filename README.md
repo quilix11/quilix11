@@ -1,90 +1,80 @@
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="quilix11 — Tools for developers. Experiences for people." />
-</p>
+# quilix11
 
-## About
+I write Python APIs and CLI tools, build Flutter apps, and learn how to run them. My repos cover equipment tracking, Git tooling, Telegram bots, language learning and a few infrastructure experiments.
 
-I'm **quilix11**. I build software around things I want to understand or make easier: reviewing a commit, tracing equipment, practicing a language, replaying a webhook, or getting an application running in the cloud.
+Lately I've been working with **Kubernetes**: deployments, services, ConfigMaps and resource limits. My **Terraform / AWS** project covers networking, EC2, load balancing, PostgreSQL and S3.
 
-My work spans **backend services, developer tools, AI integrations, Flutter apps, Telegram bots, web interfaces and infrastructure experiments**. Python is a recurring tool; Dart, JavaScript, SQL and Terraform are part of the picture too.
+### Projects
 
 <table>
-  <tr>
-    <td>
-      <strong>What draws me in</strong><br /><br />
-      <strong>Useful automation.</strong> Git hooks, command-line workflows, scheduled jobs and tools that remove repetitive steps.<br /><br />
-      <strong>Interactive learning.</strong> Conversations, voice, quizzes, characters and progress systems that turn practice into an experience.<br /><br />
-      <strong>How systems fit together.</strong> Domain rules, APIs, persistence, background workers, containers and the infrastructure underneath them.
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+**[ohymeku](https://github.com/quilix11/ohymeku)**
+
+An app for practicing English with AI characters. Voice conversations, vocabulary review, grammar exercises and a story with choices. Progress is saved locally.
+
+`Dart` `Flutter` `Gemini` `STT / TTS`
+
+</td>
+<td width="50%" valign="top">
+
+**[-FAE](https://github.com/quilix11/-FAE)**
+
+Tracks applicators across machines and zones: who's using them, where they moved and whether a location has capacity. Operator roles, movement logs and live dashboards.
+
+`Python` `FastAPI` `SQLAlchemy` `WebSockets`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[git-reviewer](https://github.com/quilix11/git-reviewer)**
+
+A pre-commit hook that sends the staged diff to Gemini and prints a review in the terminal. A critical result blocks the commit.
+
+`Python` `Git hooks` `Gemini` `Rich`
+
+</td>
+<td width="50%" valign="top">
+
+**[wiki-quizlet](https://github.com/quilix11/wiki-quizlet)**
+
+A Telegram quiz built around Ukrainian Wikipedia. Read an article, answer questions and track your score. Includes AI and rule-based question generation.
+
+`Python` `Telegram` `Gemini` `SQLite`
+
+</td>
+</tr>
 </table>
 
-I explore ideas by building them. This profile brings together larger application projects and smaller prototypes, including work in progress. My recent infrastructure work focuses on **Kubernetes**, alongside earlier **AWS and Terraform** experiments.
+### What I use
 
-## Selected projects
+| | |
+| :--- | :--- |
+| Backend | Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, SQLite, Alembic |
+| Background work | Redis, Taskiq, async HTTP clients |
+| Apps & web | Dart, Flutter, JavaScript, HTML/CSS, Bootstrap |
+| AI & bots | Gemini API, Telegram, speech recognition, text-to-speech |
+| Tools & deployment | Git, Typer, Rich, Docker, Compose, GitHub Actions, Pages |
+| Learning | Kubernetes, Terraform, AWS |
 
-<table>
-  <tr>
-    <td width="50%"><a href="https://github.com/quilix11/ohymeku"><img src="assets/ohymeku.svg" width="100%" alt="Ohymeku — AI conversations, speech and stories for learning English. Dart, Flutter, Gemini." /></a></td>
-    <td width="50%"><a href="https://github.com/quilix11/-FAE"><img src="assets/tracking.svg" width="100%" alt="Applicator tracking — equipment, domain rules and live dashboards. Python, FastAPI, SQLAlchemy." /></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/quilix11/git-reviewer"><img src="assets/reviewer.svg" width="100%" alt="git-reviewer — Gemini reviews staged changes before a commit. Python and Git hooks." /></a></td>
-    <td width="50%"><a href="https://github.com/quilix11/wiki-quizlet"><img src="assets/wiki.svg" width="100%" alt="wiki-quizlet — Ukrainian Wikipedia quizzes, reading and scores. Python, Telegram, SQLite." /></a></td>
-  </tr>
-</table>
+In the tracking backend I'm working with domain models, separate command/query handlers, dependency injection and Unit of Work. In the app projects, the work also includes local storage, voice input, progress and the interface around it.
 
 <details>
-<summary>More about these four projects</summary>
+<summary><strong>Other repos — tools, prototypes and experiments</strong></summary>
 
-- **[Ohymeku](https://github.com/quilix11/ohymeku)** combines AI role-play, spoken conversations, vocabulary review, grammar exercises, story choices and locally saved progress.
-- **[Applicator tracking](https://github.com/quilix11/-FAE)** models machines, zones, capacity rules, movement history and operator roles. Its backend explores CQRS, Unit of Work, dependency injection and WebSocket updates.
-- **[git-reviewer](https://github.com/quilix11/git-reviewer)** reads the staged diff, formats a Gemini review with Rich and blocks commits when the model reports critical issues.
-- **[wiki-quizlet](https://github.com/quilix11/wiki-quizlet)** turns Ukrainian Wikipedia articles into Telegram quiz rounds, with player scores and a rule-based generation fallback.
+| Repo | What is in it |
+| :--- | :--- |
+| [webhook-replay](https://github.com/quilix11/webhook-replay) | Receive, store, inspect and resend webhooks. Async API, migrations and API tests. |
+| [state-vault](https://github.com/quilix11/state-vault) | A CLI/API prototype for finding configuration files and pushing or pulling backups. |
+| [ast-graph](https://github.com/quilix11/ast-graph) | Python AST → Gemini → Mermaid diagrams. Experimental; the latest version has known errors. |
+| [stratum](https://github.com/quilix11/stratum) | Early workspace/content models and a plugin-based Markdown/TXT parser. |
+| [uptime-service](https://github.com/quilix11/uptime-service) | HTTP checks, scheduled Taskiq jobs and Redis results. Paused prototype. |
+| [AWS](https://github.com/quilix11/AWS) | Terraform definitions for VPC, EC2, ALB, RDS, S3 and IAM. |
+| [k8s](https://github.com/quilix11/k8s) | Deployment, Service and ConfigMap manifests, with CPU/memory requests and limits. |
+| [hf-space-waker](https://github.com/quilix11/hf-space-waker) | A GitHub Actions schedule that sends a request to a Hugging Face Space. |
+| [quilix11.github.io](https://github.com/quilix11/quilix11.github.io) | A responsive Ukrainian café website, deployed with GitHub Pages. |
 
 </details>
-
-## Toolbox
-
-| Area | Tools and approaches in my repositories |
-| :--- | :--- |
-| Languages | Python · Dart · JavaScript · SQL · HCL · HTML/CSS |
-| Backend & data | FastAPI · Pydantic · SQLAlchemy · PostgreSQL · SQLite · Alembic · Redis |
-| Architecture | Layered domain models · CQRS · Unit of Work · dependency injection · async I/O |
-| AI & interaction | Gemini API · structured model responses · Telegram bots · speech recognition · text-to-speech |
-| Apps & interfaces | Flutter · local persistence · responsive web layouts · Bootstrap |
-| Automation & delivery | Git hooks · Typer · Rich · Taskiq · Docker / Compose · GitHub Actions · GitHub Pages |
-| Infrastructure practice | Terraform · AWS VPC / EC2 / ALB / RDS / S3 / IAM · Kubernetes Deployments / Services / ConfigMaps |
-
-## The rest of the workbench
-
-<details>
-<summary><strong>Developer tools & backend experiments</strong></summary>
-
-| Project | What I am exploring |
-| :--- | :--- |
-| [webhook-replay](https://github.com/quilix11/webhook-replay) | Receiving, storing, inspecting and replaying webhook payloads through an async API, with migrations and API tests. |
-| [state-vault](https://github.com/quilix11/state-vault) | A CLI and API prototype for finding, backing up and restoring application configuration files. |
-| [ast-graph](https://github.com/quilix11/ast-graph) | An experimental path from Python AST analysis to Gemini-generated Mermaid diagrams. |
-| [stratum](https://github.com/quilix11/stratum) | Early workspace/content models and a plugin-based parser for Markdown and text files. |
-| [uptime-service](https://github.com/quilix11/uptime-service) | A paused monitoring prototype combining HTTP checks, scheduled Taskiq jobs and Redis-backed results. |
-
-</details>
-
-<details>
-<summary><strong>Cloud, delivery & web</strong></summary>
-
-| Project | What I am exploring |
-| :--- | :--- |
-| [AWS](https://github.com/quilix11/AWS) | Terraform definitions connecting networking, compute, load balancing, PostgreSQL, object storage and IAM. |
-| [k8s](https://github.com/quilix11/k8s) | Kubernetes practice with application/database workloads, services, configuration and resource requests/limits. |
-| [hf-space-waker](https://github.com/quilix11/hf-space-waker) | A scheduled GitHub Actions workflow that sends a request to a Hugging Face Space. |
-| [quilix11.github.io](https://github.com/quilix11/quilix11.github.io) | A responsive Ukrainian café website with a custom interface and GitHub Pages deployment. |
-
-</details>
-
----
-
-<p align="center">
-  <sub>Built around practical problems, curiosity and the next thing to figure out.</sub>
-</p>
