@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">quilix11</title>
+  <desc id="desc">Backend systems, AI experiences and cloud experiments. A dark minimalist profile banner with fine frames and mint accents.</desc>
+  <rect x="1" y="1" width="1198" height="338" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="17" y="17" width="1166" height="306" rx="12" fill="none" stroke="#21262d"/>
+  <path d="M42 71V43H70M1130 43H1158V71M42 269V297H70M1130 297H1158V269" fill="none" stroke="#80d8c4" stroke-width="2"/>
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <circle cx="67" cy="76" r="4" fill="#80d8c4"/>
+    <text x="82" y="81" fill="#9aa5b1" font-size="13" letter-spacing="2.5">PERSONAL WORKBENCH</text>
+    <text x="62" y="171" fill="#f0f3f6" font-size="76" font-weight="650" letter-spacing="-3">quilix11<tspan fill="#80d8c4">.</tspan></text>
+    <text x="65" y="215" fill="#aab4c0" font-size="20">Backend systems. AI experiences.</text>
+    <text x="65" y="245" fill="#aab4c0" font-size="20">Apps, automation and cloud experiments.</text>
+    <path d="M698 71V269" stroke="#30363d"/>
+    <g font-size="14">
+      <rect x="744" y="73" width="390" height="54" rx="8" fill="#11171e" stroke="#30363d"/>
+      <text x="765" y="106" fill="#80d8c4" font-family="Consolas,monospace">01</text>
+      <text x="805" y="106" fill="#d4dce5" letter-spacing="1.4">SYSTEMS &amp; DEVELOPER TOOLS</text>
+      <rect x="744" y="143" width="390" height="54" rx="8" fill="#11171e" stroke="#30363d"/>
+      <text x="765" y="176" fill="#80d8c4" font-family="Consolas,monospace">02</text>
+      <text x="805" y="176" fill="#d4dce5" letter-spacing="1.4">AI &amp; LEARNING EXPERIENCES</text>
+      <rect x="744" y="213" width="390" height="54" rx="8" fill="#11171e" stroke="#30363d"/>
+      <text x="765" y="246" fill="#80d8c4" font-family="Consolas,monospace">03</text>
+      <text x="805" y="246" fill="#d4dce5" letter-spacing="1.4">CLOUD &amp; INFRASTRUCTURE</text>
+    </g>
+  </g>
+</svg>
