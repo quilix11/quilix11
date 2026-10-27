@@ -51,7 +51,7 @@ A Telegram quiz built around Ukrainian Wikipedia. Read an article, answer questi
 
 ### What I use
 
-| | |
+| Area | Tools |
 | :--- | :--- |
 | Backend | Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, SQLite, Alembic |
 | Background work | Redis, Taskiq, async HTTP clients |
