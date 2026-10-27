@@ -1,80 +1,104 @@
-# quilix11
+<p>
+  <img src="assets/header.svg" width="100%" alt="quilix11 — Python, backend and infrastructure" />
+</p>
 
-I write Python APIs and CLI tools, build Flutter apps, and learn how to run them. My repos cover equipment tracking, Git tooling, Telegram bots, language learning and a few infrastructure experiments.
+<h3><samp>01 / ABOUT</samp></h3>
 
-Lately I've been working with **Kubernetes**: deployments, services, ConfigMaps and resource limits. My **Terraform / AWS** project covers networking, EC2, load balancing, PostgreSQL and S3.
+I write Python APIs, CLI tools and Telegram bots. My projects cover equipment tracking, code review, webhook debugging, configuration backups and monitoring.
 
-### Projects
+I'm also learning the infrastructure side: **Kubernetes** deployments, services and configuration, plus **Terraform / AWS** networking, compute, databases and storage.
+
+<h3><samp>02 / PROJECTS</samp></h3>
 
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/quilix11/-FAE"><samp>-FAE</samp></a></h3>
 
-**[ohymeku](https://github.com/quilix11/ohymeku)**
+Equipment tracking across machines and zones. Capacity rules, operator roles, movement history and live dashboard updates.
 
-An app for practicing English with AI characters. Voice conversations, vocabulary review, grammar exercises and a story with choices. Progress is saved locally.
+`FastAPI` `SQLAlchemy` `WebSockets`
 
-`Dart` `Flutter` `Gemini` `STT / TTS`
+<sub>CQRS · Unit of Work · dependency injection</sub>
 
 </td>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/quilix11/git-reviewer"><samp>git-reviewer</samp></a></h3>
 
-**[-FAE](https://github.com/quilix11/-FAE)**
+A pre-commit hook that sends the staged diff to Gemini and prints a terminal review. A critical result blocks the commit.
 
-Tracks applicators across machines and zones: who's using them, where they moved and whether a location has capacity. Operator roles, movement logs and live dashboards.
+`Python` `Git hooks` `Gemini` `Rich`
 
-`Python` `FastAPI` `SQLAlchemy` `WebSockets`
+<sub>Staged diff → review → commit decision</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/quilix11/webhook-replay"><samp>webhook-replay</samp></a></h3>
 
-**[git-reviewer](https://github.com/quilix11/git-reviewer)**
+Receive a webhook, save its headers and payload, inspect it, then replay it to another endpoint. Includes migrations and API tests.
 
-A pre-commit hook that sends the staged diff to Gemini and prints a review in the terminal. A critical result blocks the commit.
+`FastAPI` `async SQLAlchemy` `httpx`
 
-`Python` `Git hooks` `Gemini` `Rich`
+<sub>Receive → store → inspect → replay</sub>
 
 </td>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/quilix11/wiki-quizlet"><samp>wiki-quizlet</samp></a></h3>
 
-**[wiki-quizlet](https://github.com/quilix11/wiki-quizlet)**
-
-A Telegram quiz built around Ukrainian Wikipedia. Read an article, answer questions and track your score. Includes AI and rule-based question generation.
+A Telegram quiz based on Ukrainian Wikipedia. Article reading, AI and rule-based question generation, player scores and rankings.
 
 `Python` `Telegram` `Gemini` `SQLite`
+
+<sub>Articles → questions → quiz rounds</sub>
 
 </td>
 </tr>
 </table>
 
-### What I use
+<h3><samp>03 / STACK</samp></h3>
 
-| Area | Tools |
+| | Tools in my projects |
 | :--- | :--- |
-| Backend | Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, SQLite, Alembic |
-| Background work | Redis, Taskiq, async HTTP clients |
-| Apps & web | Dart, Flutter, JavaScript, HTML/CSS, Bootstrap |
-| AI & bots | Gemini API, Telegram, speech recognition, text-to-speech |
-| Tools & deployment | Git, Typer, Rich, Docker, Compose, GitHub Actions, Pages |
-| Learning | Kubernetes, Terraform, AWS |
+| **Backend** | `Python` `FastAPI` `Pydantic` `SQLAlchemy` `Alembic` |
+| **Data & workers** | `PostgreSQL` `SQLite` `Redis` `Taskiq` `asyncio` `httpx` |
+| **CLI & automation** | `Git` `Typer` `Rich` `GitHub Actions` |
+| **Containers** | `Docker` `Compose` |
+| **Infrastructure practice** | `Kubernetes` `Terraform` `AWS` |
 
-In the tracking backend I'm working with domain models, separate command/query handlers, dependency injection and Unit of Work. In the app projects, the work also includes local storage, voice input, progress and the interface around it.
+<h3><samp>04 / INFRASTRUCTURE</samp></h3>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/quilix11/k8s"><samp>k8s</samp></a></h3>
+
+Deployment, Service and ConfigMap manifests. Working through replicas, application/database workloads and CPU/memory requests and limits.
+
+`Kubernetes` `YAML`
+
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/quilix11/AWS"><samp>AWS</samp></a></h3>
+
+Terraform definitions for VPCs and subnets, EC2, an application load balancer, RDS PostgreSQL, S3 and IAM.
+
+`Terraform` `HCL` `AWS`
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><strong>Other repos — tools, prototypes and experiments</strong></summary>
+<summary><samp>05 / MORE REPOS</samp></summary>
 
 | Repo | What is in it |
 | :--- | :--- |
-| [webhook-replay](https://github.com/quilix11/webhook-replay) | Receive, store, inspect and resend webhooks. Async API, migrations and API tests. |
 | [state-vault](https://github.com/quilix11/state-vault) | A CLI/API prototype for finding configuration files and pushing or pulling backups. |
 | [ast-graph](https://github.com/quilix11/ast-graph) | Python AST → Gemini → Mermaid diagrams. Experimental; the latest version has known errors. |
 | [stratum](https://github.com/quilix11/stratum) | Early workspace/content models and a plugin-based Markdown/TXT parser. |
 | [uptime-service](https://github.com/quilix11/uptime-service) | HTTP checks, scheduled Taskiq jobs and Redis results. Paused prototype. |
-| [AWS](https://github.com/quilix11/AWS) | Terraform definitions for VPC, EC2, ALB, RDS, S3 and IAM. |
-| [k8s](https://github.com/quilix11/k8s) | Deployment, Service and ConfigMap manifests, with CPU/memory requests and limits. |
-| [hf-space-waker](https://github.com/quilix11/hf-space-waker) | A GitHub Actions schedule that sends a request to a Hugging Face Space. |
-| [quilix11.github.io](https://github.com/quilix11/quilix11.github.io) | A responsive Ukrainian café website, deployed with GitHub Pages. |
+| [hf-space-waker](https://github.com/quilix11/hf-space-waker) | A scheduled GitHub Actions request to a Hugging Face Space. |
 
 </details>
