@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="quilix11 — Backend systems, AI experiences and cloud experiments" />
+  <img src="assets/header.svg" width="100%" alt="quilix11 — Tools for developers. Experiences for people." />
 </p>
 
 <p align="center">
@@ -32,30 +32,24 @@ I explore ideas by building them. This profile brings together larger applicatio
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/quilix11/ohymeku">Ohymeku</a></h3>
-      <p>An English-practice app built around AI role-play, spoken conversations and a character-led learning journey. Includes vocabulary review, grammar practice, story choices and locally saved progress.</p>
-      <p><code>Dart / Flutter</code> <code>Gemini</code><br /><code>Speech-to-text / TTS</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/quilix11/-FAE">Applicator tracking</a></h3>
-      <p>An equipment-tracking application with machine and zone assignments, capacity rules, movement history, operator roles and live dashboards. Explores explicit domain boundaries and transactional workflows.</p>
-      <p><code>FastAPI</code> <code>SQLAlchemy</code><br /><code>CQRS / Unit of Work</code> <code>WebSockets</code></p>
-    </td>
+    <td width="50%"><a href="https://github.com/quilix11/ohymeku"><img src="assets/ohymeku.svg" width="100%" alt="Ohymeku — AI conversations, speech and stories for learning English. Dart, Flutter, Gemini." /></a></td>
+    <td width="50%"><a href="https://github.com/quilix11/-FAE"><img src="assets/tracking.svg" width="100%" alt="Applicator tracking — equipment, domain rules and live dashboards. Python, FastAPI, SQLAlchemy." /></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/quilix11/git-reviewer">git-reviewer</a></h3>
-      <p>A Gemini-powered pre-commit tool that reads staged changes, prints a structured review in the terminal and blocks commits when the model reports critical issues.</p>
-      <p><code>Python</code> <code>Git hooks</code><br /><code>Gemini</code> <code>Rich</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/quilix11/wiki-quizlet">wiki-quizlet</a></h3>
-      <p>A Telegram quiz project based on Ukrainian Wikipedia: article reading, generated questions, score tracking and a rule-based question-generation fallback.</p>
-      <p><code>Python</code> <code>Telegram</code><br /><code>Gemini</code> <code>SQLite</code></p>
-    </td>
+    <td width="50%"><a href="https://github.com/quilix11/git-reviewer"><img src="assets/reviewer.svg" width="100%" alt="git-reviewer — Gemini reviews staged changes before a commit. Python and Git hooks." /></a></td>
+    <td width="50%"><a href="https://github.com/quilix11/wiki-quizlet"><img src="assets/wiki.svg" width="100%" alt="wiki-quizlet — Ukrainian Wikipedia quizzes, reading and scores. Python, Telegram, SQLite." /></a></td>
   </tr>
 </table>
+
+<details>
+<summary>More about these four projects</summary>
+
+- **[Ohymeku](https://github.com/quilix11/ohymeku)** combines AI role-play, spoken conversations, vocabulary review, grammar exercises, story choices and locally saved progress.
+- **[Applicator tracking](https://github.com/quilix11/-FAE)** models machines, zones, capacity rules, movement history and operator roles. Its backend explores CQRS, Unit of Work, dependency injection and WebSocket updates.
+- **[git-reviewer](https://github.com/quilix11/git-reviewer)** reads the staged diff, formats a Gemini review with Rich and blocks commits when the model reports critical issues.
+- **[wiki-quizlet](https://github.com/quilix11/wiki-quizlet)** turns Ukrainian Wikipedia articles into Telegram quiz rounds, with player scores and a rule-based generation fallback.
+
+</details>
 
 ## Toolbox
 
